@@ -58,7 +58,7 @@ export default function Contact ()  {
         {/* Left Side: Contact Information */}
         <div className="flex flex-col justify-center space-y-8">
           <div>
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-4">
+            <h2 className="text-4xl md:text-5xl wrap-anywhere font-extrabold mb-4">
               Let's build <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 drop-shadow-[0_0_10px_rgba(34,211,238,0.5)]">magic</span> together! 🚀
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed">
@@ -73,7 +73,7 @@ export default function Contact ()  {
               </div>
               <div>
                 <p className="text-xs text-gray-500 uppercase tracking-widest font-bold">Email Me</p>
-                <p className="text-gray-200 font-semibold text-lg">kalaiselvan.tech@gmail.com</p>
+                <p className="text-gray-200 font-semibold wrap-anywhere text-lg">kalaiselvan.tech@gmail.com</p>
               </div>
             </div>
 
