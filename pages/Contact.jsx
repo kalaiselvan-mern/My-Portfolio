@@ -16,12 +16,12 @@ export default function Contact ()  {
    formData.append("email" , data.email);
    formData.append("message", data.message);
    try {
-     const respone =await fetch("https://api.web3forms.com/submit",
+     const respones =await fetch("https://api.web3forms.com/submit",
       {
         method:"POST",
         body:formData
       } )
-      const resData =await respone.json();
+      const resData =await respones.json();
       if (resData.success){
         setResult("Message Send Successfully 🔥");
         reset()
