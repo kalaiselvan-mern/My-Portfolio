@@ -14,6 +14,7 @@ export default function Contact ()  {
    formData.append("access_key" , import.meta.env.VITE_WEB3FORMS_ACCESS_KEY);
    formData.append("name" , data.name);
    formData.append("email" , data.email);
+   formData.append("mobile", data.mobile)
    formData.append("message", data.message);
    try {
      const respones =await fetch("https://api.web3forms.com/submit",
