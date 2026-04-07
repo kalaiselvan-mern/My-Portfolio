@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import { FaBars, FaTimes, FaDownload } from "react-icons/fa";
 
 export default function Navbar() {
-   // Mobile View & Close 
+  // Mobile View & Close 
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -16,9 +16,9 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full flex justify-between items-center px-6 md:px-12 py-6 text-white z-50 bg-[#050505]/80 backdrop-blur-md border-b border-white/5">
       
-      {/*  LOGO */}
+      {/* LOGO */}
       <div className="text-3xl font-extrabold italic tracking-wider group">
-        <Link to="/" className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">
+        <Link smooth to="/#" className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">
           KALAI
         </Link>
       </div>
@@ -27,12 +27,13 @@ export default function Navbar() {
       <ul className="hidden md:flex gap-8 font-semibold text-xs tracking-[0.2em]">
         {links.map(({ id, link, name }) => (
           <li key={id} className="hover:text-cyan-400 transition-colors duration-300 cursor-pointer">
-            <Link to={`/${link}`}>{name}</Link>
+            {/* Added smooth and # here */}
+            <Link smooth to={`/#${link}`}>{name}</Link>
           </li>
         ))}
       </ul>
 
-      {/*  RESUME BUTTON (Desktop) */}
+      {/* RESUME BUTTON (Desktop) */}
       <div className="hidden md:flex">
         <a
           href="/KalaiSelvan-Resume.pdf"
@@ -44,7 +45,6 @@ export default function Navbar() {
         </a>
       </div>
 
-      
       <div
         onClick={() => setNav(!nav)}
         className="cursor-pointer pr-4 z-[60] text-cyan-400 md:hidden"
@@ -61,9 +61,11 @@ export default function Navbar() {
         <ul className="flex flex-col justify-center items-center gap-8">
           {links.map(({ id, link, name }) => (
             <li key={id} className="text-3xl font-bold tracking-widest">
+              {/* Added smooth and # here for mobile */}
               <Link
+                smooth
                 onClick={() => setNav(false)} 
-                to={`/${link}`}
+                to={`/#${link}`}
                 className="text-gray-400 hover:text-cyan-400 transition-colors"
               >
                 {name}

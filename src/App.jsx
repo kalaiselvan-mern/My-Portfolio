@@ -1,36 +1,44 @@
 import React from "react";
-import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
-import Navbar from '../layout/Navbar'
+import { BrowserRouter } from "react-router-dom";
+import Navbar from '../layout/Navbar';
 import Header from "../pages/Header";
 import MyProjects from "../pages/Projects";
 import Contact from "../pages/Contact";
 import Skills from "../pages/Skills";
 import Career from "../pages/Career";
 
-const LayOut = () => {
-  return (
-    <>
-      <Navbar />
-      <Outlet />
-    </>
-  );
-};
 function App() {
   return (
     <>
-   
+      {/* HashLink work aaganum na BrowserRouter kulla thaan irukkanum */}
       <BrowserRouter>
-        <Routes>
-          <Route element={<LayOut />} >
-          <Route path="/" element={<Header />} />
-          <Route path="/projects" element={<MyProjects/>} />
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/skills" element={<Skills/>}/>
-          <Route path="/career" element={<Career/>}/>
-          </Route>
-        </Routes>
-      </BrowserRouter>
+        <Navbar />
+        
+       
+        <div className="pt-0"> 
+          
+          <div id="home">
+            <Header />
+          </div>
 
+          <div id="skills">
+            <Skills />
+          </div>
+
+          <div id="projects">
+            <MyProjects />
+          </div>
+
+          <div id="career">
+            <Career />
+          </div>
+
+          <div id="contact">
+            <Contact />
+          </div>
+
+        </div>
+      </BrowserRouter>
     </>
   );
 }
