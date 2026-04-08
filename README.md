@@ -3,12 +3,11 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 Welcome to my personal portfolio repository! This website showcases my skills, experience, and the projects I have built as a Full Stack MERN Developer. It is designed to be fast, responsive, and visually appealing.
 
 
-🔗 **Live Portfolio:** [Visit My Website](https://my-portfolio-kalai.netlify.app/)
+🔗 **Live Portfolio:** [Visit My Website](https://my-portfolio-gvcz4ywi0-kalai-edits-projects.vercel.app/)
 ---
 
 ## 🌟 Features
@@ -27,7 +26,7 @@ Welcome to my personal portfolio repository! This website showcases my skills, e
 * **Frontend:** React.js, HTML5, CSS3
 * **Styling:** Tailwind CSS
 * **Build Tool:** Vite (or Create React App)
-* **Deployment:** Netlify
+* **Deployment:** Vercel
 * **Version Control:** Git & GitHub
 
 ---
