@@ -9,7 +9,7 @@ Welcome to my personal portfolio repository! This website showcases my skills, e
 
 
 🔗 **Live Portfolio:** [Visit My Website](https://my-portfolio-kalai.netlify.app/)
-`![Portfolio Preview](./public/assets/PortFolioImg.png)`
+`![Portfolio Preview](/previewimg/PortFolioImg.png)`
 ---
 
 ## 🌟 Features
