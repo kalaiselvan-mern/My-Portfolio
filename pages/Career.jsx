@@ -62,7 +62,7 @@ const Career = () => {
              </a>
             <a 
               href="/KalaiSelvan-Resume.pdf" 
-              download 
+              download ="/KalaiSelvan-Resume.pdf"
               className="flex items-center gap-3 border border-gray-700 text-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-black transition-all duration-300"
             >
               <FaDownload /> Download 
