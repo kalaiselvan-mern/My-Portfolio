@@ -9,7 +9,7 @@ Welcome to my personal portfolio repository! This website showcases my skills, e
 
 
 🔗 **Live Portfolio:** [Visit My Website](https://my-portfolio-kalai.netlify.app/)
-`![Portfolio Preview](./public/assets/PortFolio Img.png)`
+`![Portfolio Preview](./public/assets/PortFolioImg.png)`
 ---
 
 ## 🌟 Features
@@ -40,4 +40,5 @@ Want to run this portfolio on your local machine? Follow these simple steps:
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/kalaiselvan-mern/My-Portfolio.git](https://github.com/kalaiselvan-mern/My-Portfolio.git)
-cd My-Portfolio
+cd My-Portfolio 
+ 
