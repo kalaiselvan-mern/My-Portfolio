@@ -7,8 +7,9 @@
 
 Welcome to my personal portfolio repository! This website showcases my skills, experience, and the projects I have built as a Full Stack MERN Developer. It is designed to be fast, responsive, and visually appealing.
 
-🔗 **Live Portfolio:** [Visit My Website](https://my-portfolio-kalai.netlify.app/)
 
+🔗 **Live Portfolio:** [Visit My Website](https://my-portfolio-kalai.netlify.app/)
+`![Portfolio Preview](./public/assets/PortFolio Img.png)`
 ---
 
 ## 🌟 Features
