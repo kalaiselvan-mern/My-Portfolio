@@ -39,7 +39,7 @@ const projects = [
       <div className="z-10 w-full max-w-6xl">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4">
-            Featured <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">Creations</span>
+            Featured <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-purple-500">Creations</span>
           </h1>
           <p className="text-gray-400 text-lg">A showcase of my full-stack journey and technical expertise.</p>
         </div>
@@ -97,6 +97,7 @@ const projects = [
           ))}
         </div>
       </div>
+      
     </div>
   );
 };

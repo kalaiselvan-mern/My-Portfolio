@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import { FaArrowRight, FaCode } from "react-icons/fa";
 
 const Header = () => {
@@ -16,8 +16,8 @@ const scrollToNextSection = ()=>{
     <div className="relative min-h-screen w-full bg-[#050505] overflow-hidden flex items-center">
       
       {/* Background Neon Effects (Animated Glows) */}
-      <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-cyan-900/20 blur-[120px] rounded-full animate-pulse"></div>
-      <div className="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] bg-purple-900/20 blur-[150px] rounded-full animate-bounce duration-[10s]"></div>
+      <div className="absolute top-[-10%] left-[-10%] w-125 h-125 bg-cyan-900/20 blur-[120px] rounded-full animate-pulse"></div>
+      <div className="absolute bottom-[-10%] right-[-10%] h-150 w-150  bg-purple-900/20 blur-[150px] rounded-full animate-bounce duration-[10s]"></div>
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-20">
         
@@ -28,7 +28,7 @@ const scrollToNextSection = ()=>{
 
         {/* Main Heading */}
         <h1 className="text-5xl md:text-8xl font-black text-white leading-[1.1] mb-8 tracking-tighter">
-          Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]">Digital</span> <br /> 
+          Crafting <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 via-blue-500 to-purple-600 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]">Digital</span> <br /> 
           Experiences.
         </h1>
 
@@ -40,15 +40,15 @@ const scrollToNextSection = ()=>{
         {/* Action Buttons (Fixed Link inside Button issue) */}
         <div className="flex flex-wrap gap-6">
           <Link 
-            to="/projects" 
+            to={`/#${'projects'}` }
             className="group relative px-8 py-4 bg-white text-black font-extrabold rounded-xl overflow-hidden transition-all hover:scale-105 active:scale-95 flex items-center gap-3"
           >
             EXPLORE MY WORKS!
             <FaArrowRight className="group-hover:translate-x-2 transition-transform" />
           </Link>
-
-          <Link 
-            to="/contact" 
+ 
+          <Link  
+            to={`/#${"contact"}`}
             className="px-8 py-4 border-2 border-gray-800 text-white font-extrabold rounded-xl hover:bg-white hover:text-black hover:border-white transition-all duration-300 active:scale-95"
           >
             CONTACT ME
@@ -59,7 +59,7 @@ const scrollToNextSection = ()=>{
 
       {/* Scroll Down Indicator */}
       <div onClick={scrollToNextSection} className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 animate-bounce">
-        <div className="w-[1px] h-12 bg-gradient-to-b from-cyan-500 to-transparent"></div>
+        <div className="w-1 h-12 bg-linear-to-r from-cyan-500 to-transparent"></div>
         <span className="text-[10px] text-cyan-500 tracking-[0.3em] uppercase font-bold">Scroll</span>
       </div>
 

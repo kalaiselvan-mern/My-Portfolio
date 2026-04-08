@@ -60,7 +60,7 @@ export default function Contact ()  {
         <div className="flex flex-col justify-center space-y-8">
           <div>
             <h2 className="text-4xl md:text-5xl wrap-anywhere font-extrabold mb-4">
-              Let's build <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 drop-shadow-[0_0_10px_rgba(34,211,238,0.5)]">magic</span> together! 🚀
+              Let's build <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-blue-500 drop-shadow-[0_0_10px_rgba(34,211,238,0.5)]">magic</span> together! 🚀
             </h2>
             <p className="text-gray-400 text-lg leading-relaxed">
               Have a project in mind or just want to chat about tech? Feel free to reach out. I'm always open to new opportunities!
@@ -159,7 +159,7 @@ export default function Contact ()  {
 
             <button 
 
-              className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-bold py-4 px-6 rounded-xl hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] transition-all duration-300 transform active:scale-95"
+              className="w-full bg-linear-to-r from-cyan-600 to-blue-600 text-white font-bold py-4 px-6 rounded-xl hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] transition-all duration-300 transform active:scale-95"
             >
               Send Message ✨
             </button>

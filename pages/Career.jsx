@@ -8,14 +8,14 @@ const Career = () => {
     <section className="min-h-screen bg-[#050505] flex items-center justify-center px-6 py-20 relative overflow-hidden">
       
       {/* Ambient Glow Effects */}
-      <div className="absolute top-1/2 left-[-10%] w-[500px] h-[500px] bg-blue-900/10 blur-[150px] rounded-full pointer-events-none"></div>
-      <div className="absolute bottom-0 right-[-5%] w-[400px] h-[400px] bg-purple-900/10 blur-[130px] rounded-full pointer-events-none"></div>
+      <div className="absolute top-1/2 left-[-10%] w-125 h-125 bg-blue-900/10 blur-[150px] rounded-full pointer-events-none"></div>
+      <div className="absolute bottom-0 right-[-5%] w-100 h-100 bg-purple-900/10 blur-[130px] rounded-full pointer-events-none"></div>
 
       <div className="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center z-10">
         
         {/* Left Side: Profile Image with Neon Border */}
         <div className="relative group mx-auto md:mx-0">
-          <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
+          <div className="absolute -inset-1 bg-linear-to-r from-cyan-500 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
           <div className="relative md:ml-28  h-72  md:w-72 md:h-96 bg-gray-900 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
           
             <img 
@@ -36,7 +36,7 @@ const Career = () => {
             A Bit About Me
           </h4>
           <h2 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
-            I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">Kalai Selvan</span>, <br /> 
+            I'm <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-purple-500">Kalai Selvan</span>, <br /> 
             a Digital Craftsman.
           </h2>
           
@@ -57,7 +57,7 @@ const Career = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-4 pt-6">
-            <a href="https://wa.me/919344147003" target="_blank" className="flex items-center gap-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-[0_0_20px_rgba(34,211,238,0.4)] hover:-translate-y-1 transition-all duration-300">
+            <a href="https://wa.me/919344147003" target="_blank" className="flex items-center gap-3 bg-linear-to-r from-cyan-600 to-blue-600 text-white px-8 py-3 rounded-full font-bold hover:shadow-[0_0_20px_rgba(34,211,238,0.4)] hover:-translate-y-1 transition-all duration-300">
               Let's Connect
              </a>
             <a 

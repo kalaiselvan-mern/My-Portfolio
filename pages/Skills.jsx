@@ -53,7 +53,7 @@ const Skills = () => {
       <div className="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-purple-900/20 blur-[120px] rounded-full pointer-events-none"></div>
 
       <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-16 tracking-wider z-10 text-center">
-        My <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 drop-shadow-[0_0_15px_rgba(192,132,252,0.5)]">Tech Arsenal</span> ⚡
+        My <span className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-purple-500 drop-shadow-[0_0_15px_rgba(192,132,252,0.5)]">Tech Arsenal</span> ⚡
       </h2>
 
       {/* Grid Layout for Cards */}

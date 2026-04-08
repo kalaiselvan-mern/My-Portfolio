@@ -18,7 +18,7 @@ export default function Navbar() {
       
       {/* LOGO */}
       <div className="text-3xl font-extrabold italic tracking-wider group">
-        <Link smooth to="/#" className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">
+        <Link smooth to="/#" className="text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-purple-500 drop-shadow-[0_0_8px_rgba(34,211,238,0.5)]">
           KALAI
         </Link>
       </div>
@@ -47,7 +47,7 @@ export default function Navbar() {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-[60] text-cyan-400 md:hidden"
+        className="cursor-pointer pr-4 z-60 text-cyan-400 md:hidden"
       >
         {nav ? <FaTimes size={25} /> : <FaBars size={25} />}
       </div>
@@ -79,7 +79,7 @@ export default function Navbar() {
               href="/KalaiSelvan-Resume.pdf"
               download="KalaiSelvan-Resume.pdf"
               onClick={() => setNav(false)}
-              className="flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 rounded-full font-bold text-white shadow-[0_0_20px_rgba(34,211,238,0.4)]"
+              className="flex items-center gap-2 bg-linear-to-r from-cyan-500 to-blue-600 px-8 py-4 rounded-full font-bold text-white shadow-[0_0_20px_rgba(34,211,238,0.4)]"
             >
               <FaDownload /> RESUME
             </a>
