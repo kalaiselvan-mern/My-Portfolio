@@ -12,8 +12,8 @@ const Skills = () => {
       badgeStyle: "hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:text-cyan-300",
       skills: [
         "HTML5",  "Tailwind CSS",  "JavaScript", 
-        "React.js", "React Hook Form + Zod", "Zustand (State)", 
-        "TanStack Query", "Axios", "React-Icons", "Socket.io"
+        "React.js",  "Zustand (State)", 
+        "TanStack Query", "Axios", "Socket.io"," Next Js"
       ],
     },
     {
@@ -22,7 +22,7 @@ const Skills = () => {
       boxStyle: "border-green-500/30 hover:border-green-400 hover:shadow-[0_0_30px_rgba(74,222,128,0.3)]",
       titleGlow: "text-green-400 drop-shadow-[0_0_10px_rgba(74,222,128,0.8)]",
       badgeStyle: "hover:border-green-400 hover:shadow-[0_0_15px_rgba(74,222,128,0.5)] hover:text-green-300",
-      skills: ["Node.js", "Express.js", "CORS APIs", "Mongoose"],
+      skills: ["Node.js", "Express.js", "Mongoose"],
     },
     {
       title: "Database & Storage",
@@ -40,7 +40,7 @@ const Skills = () => {
       badgeStyle: "hover:border-purple-400 hover:shadow-[0_0_15px_rgba(192,132,252,0.5)] hover:text-purple-300",
       skills: [
         "Git & GitHub", "JWT (Auth)", "Postman", "Cloudflare", 
-        "Vercel", "Render"    ,  "Ui & Ux Desgin ", "Linux" ,
+        "Vercel", "Render"    ,  "Ui & Ux Desgin ", "Linux" ,"Type Script"
       ], 
     },
   ];
